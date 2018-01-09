@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Ramsey Economics"
 title_separator          : "-"
 name                     : "Essem"
-description              : "An amazing website."
+description              : "A guide to economics with quizzes and videos to help you."
 url                      : "https://theessemcraft.github.io"
 baseurl                  : "/economics"
 repository               : "TheEssemCraft/economics"
