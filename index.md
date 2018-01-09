@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 header:
-  overlay_color: "#5e616c"
+  overlay_color: "#545760"
   overlay_image: /assets/images/economics.jpg
   cta_label: "<i class='fas fa-play'></i> Start"
   cta_url: "/docs/quick-start-guide/"
