@@ -262,3 +262,4 @@ defaults:
       layout: single
       author_profile: false
       sidebar: true
+      toc: true
