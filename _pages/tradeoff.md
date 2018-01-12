@@ -1,6 +1,6 @@
 ---
 title: "Trade-off"
-permalink: "/vocab/tradeoff.html"
+permalink: "/concepts/tradeoff.html"
 ---
 
 ### What is a Trade-off?
