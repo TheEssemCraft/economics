@@ -1,6 +1,6 @@
 ---
 title: "Scarcity"
-permalink: /vocab/scarcity.html
+permalink: /concepts/scarcity.html
 ---
 
 ### What is Scarcity?
