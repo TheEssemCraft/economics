@@ -33,6 +33,8 @@ feature_row:
     btn_label: "Learn More"
 ---
 
-{% comment %} {% include feature_row id="intro" type="center" %} {% endcomment %}
+{% include feature_row id="intro" type="center" %}
+
+{% comment %}{% endcomment %}
 
 {% include feature_row %}
