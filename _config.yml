@@ -263,3 +263,12 @@ defaults:
       author_profile: false
       sidebar: true
       toc: true
+  # _concepts
+  - scope:
+      path: ""
+      type: concepts
+    values:
+      layout: single
+      author_profile: false
+      sidebar: true
+      toc: true
