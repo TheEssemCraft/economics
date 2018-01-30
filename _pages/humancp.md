@@ -2,7 +2,7 @@
 title: "Human Capital"
 permalink: "/concepts/humancp.md"
 header:
-  teaser: http://placehold.it/350x250
+  teaser: http://placehold.it/600x400
 ---
 
 ### What is Human Capital?
