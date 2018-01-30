@@ -5,7 +5,7 @@ layout: archive
 ---
 
 <div class="grid__wrapper">
-  {% for post in site.portfolio %}
+  {% for page in site.pages %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
