@@ -275,6 +275,6 @@ defaults:
 
 # Collections
 collections:
-  portfolio:
+  concepts:
     output: true
     permalink: /:collection/:path/
