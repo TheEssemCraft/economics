@@ -1,6 +1,8 @@
 ---
 title: "Opportunity Cost"
 permalink: "/concepts/opcost.html"
+header:
+  teaser: http://placehold.it/600x400
 ---
 
 ### What is an Opportunity Cost?
