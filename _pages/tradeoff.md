@@ -1,6 +1,8 @@
 ---
 title: "Trade-off"
 permalink: "/concepts/tradeoff.html"
+header:
+  teaser: http://placehold.it/600x400
 ---
 
 ### What is a Trade-off?
