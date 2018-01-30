@@ -13,6 +13,4 @@ hidden: true
   {% endfor %}
 </div>
 
-{% comment %}
-{{ site.pages }}
-{% endcomment %}
+{{ site.concepts }}
