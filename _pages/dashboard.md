@@ -2,11 +2,14 @@
 title: "Dashboard"
 permalink: "/dashboard.html"
 layout: archive
+categories: "site"
 ---
 
 <div class="grid__wrapper">
   {% for post in site.pages %}
-    {% include archive-single.html type="grid" %}
+    {% unless post.categories contains 'site' %}
+      {% include archive-single.html type="grid" %}
+    {% endif %}
   {% endfor %}
 </div>
 
