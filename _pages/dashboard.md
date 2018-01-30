@@ -9,7 +9,7 @@ categories: "site"
   {% for post in site.pages %}
     {% unless page.categories contains 'site' %}
       {% include archive-single.html type="grid" %}
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 </div>
 
