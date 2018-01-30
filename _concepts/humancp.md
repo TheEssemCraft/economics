@@ -1,6 +1,6 @@
 ---
 title: "Human Capital"
-permalink: "/concepts/humancp.md"
+permalink: "/concepts/humancp.html"
 header:
   teaser: http://placehold.it/600x400
 ---
