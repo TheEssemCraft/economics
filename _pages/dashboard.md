@@ -12,5 +12,3 @@ hidden: true
     {% endunless %}
   {% endfor %}
 </div>
-
-{{ site.concepts }}
