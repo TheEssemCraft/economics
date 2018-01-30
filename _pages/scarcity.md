@@ -1,6 +1,8 @@
 ---
 title: "Scarcity"
 permalink: /concepts/scarcity.html
+header:
+  teaser: http://placehold.it/600x400
 ---
 
 ### What is Scarcity?
