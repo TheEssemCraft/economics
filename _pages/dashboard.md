@@ -7,7 +7,7 @@ categories: "site"
 
 <div class="grid__wrapper">
   {% for post in site.pages %}
-    {% unless post.categories contains 'site' %}
+    {% unless page.categories contains 'site' %}
       {% include archive-single.html type="grid" %}
     {% endif %}
   {% endfor %}
