@@ -9,3 +9,5 @@ layout: archive
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+
+{{ site.pages }}
