@@ -7,7 +7,7 @@ hidden: true
 
 <div class="grid__wrapper">
   {% for post in site.pages %}
-    {% unless page.hidden == true %}
+    {% unless post.hidden == true %}
       {% include archive-single.html type="grid" %}
     {% endunless %}
   {% endfor %}
