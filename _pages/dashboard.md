@@ -16,3 +16,7 @@ categories: "site"
 {% comment %}
 {{ site.pages }}
 {% endcomment %}
+
+{% for post in site.pages %}
+  {{ page.categories }}
+{% endfor %}
