@@ -9,6 +9,7 @@ header:
   cta_url: "/docs/quick-start-guide/"
   caption:
 excerpt: 'A guide to economics with quizzes and videos to help you.'
+categories: 'site'
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
