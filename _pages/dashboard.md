@@ -5,9 +5,11 @@ layout: archive
 ---
 
 <div class="grid__wrapper">
-  {% for page in site.pages %}
+  {% for post in site.pages %}
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 
+{% comment %}
 {{ site.pages }}
+{% endcomment %}
