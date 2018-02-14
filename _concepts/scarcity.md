@@ -17,10 +17,10 @@ Scarcity is the principle that limited amounts of goods and services are availab
 #### Question Test
 
 <form class="form">
-  <div><input class="radio" type="radio" name="choice" value="0"> Test 1</div>
-  <div><input class="radio" type="radio" name="choice" value="1"> Test 2</div>
-  <div><input class="radio" type="radio" name="choice" value="2"> Test 3</div>
-  <div><input class="radio" type="radio" name="choice" value="3"> Test 4</div>
+  <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="0"></div> Test 1</div>
+  <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="1"></div> Test 2</div>
+  <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="2"></div> Test 3</div>
+  <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="3"></div> Test 4</div>
   <button class="btn btn--info" onclick="submitAnswer()">Submit</button>
 </form>
 
