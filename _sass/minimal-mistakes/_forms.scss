@@ -171,6 +171,18 @@ input[type="hidden"] {
   position: relative;
 }
 
+.radio-container {
+  display: inline-block;
+  border-radius: 100px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.radio-container input[type="radio"] {
+  display: block;
+  margin: 0;
+}
+
 .radio,
 .checkbox {
   padding-left: 18px;
