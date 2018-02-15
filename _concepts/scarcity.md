@@ -33,7 +33,7 @@ function submitAnswer() {
   var userAnswer;
   var msg = document.getElementById("message");
   
-  for( ; i < len; i++ ) {
+  for(i = 0; i < len; i++) {
      if(radios[i].checked) {
        checked = true;
        userAnswer = radios[i].value;
