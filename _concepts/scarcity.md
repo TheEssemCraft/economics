@@ -28,7 +28,7 @@ Scarcity is the principle that limited amounts of goods and services are availab
 <script>
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
-  var i = 0, len = radios.length;
+  var len = radios.length;
   var checked = false;
   var userAnswer;
   var msg = document.getElementById("message");
