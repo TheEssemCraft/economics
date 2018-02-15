@@ -40,15 +40,15 @@ function submitAnswer() {
      }
   } 
   if(!checked) {
-    msg.classList.add("notice--info");
+    msg.className = "notice--info";
     msg.innerHTML = "Please select an answer.";
   }
   else if(userAnswer === "1") {
-    msg.classList.add("notice--success");
+    msg.className = "notice--success";
     msg.innerHTML = "Correct!";
   }
   else {
-    msg.classList.add("notice--danger");
+    msg.className = "notice--danger";
     msg.innerHTML = "Incorrect.";
   }
   setTimeout(function() {
