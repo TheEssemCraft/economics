@@ -21,7 +21,6 @@ Scarcity is the principle that limited amounts of goods and services are availab
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="1"></div> Test 2</div>
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="2"></div> Test 3</div>
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="3"></div> Test 4</div>
-  <br>
   <button class="btn btn--info" onclick="submitAnswer()">Submit</button>
   <p id="message"></p>
 </form>
@@ -44,7 +43,7 @@ function submitAnswer() {
     msg.classList.add("notice--info");
     msg.innerHTML = "Please select an answer.";
   }
-  if(userAnswer === "1") {
+  else if(userAnswer === "1") {
     msg.classList.add("notice--success");
     msg.innerHTML = "Correct!";
   }
