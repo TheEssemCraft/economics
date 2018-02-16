@@ -43,17 +43,17 @@ function submitAnswer() {
   } 
   if(!checked) {
     msg.className = "notice--info";
-    btn.setAttribute("disabled");
+    btn.createAttribute("disabled");
     msg.innerHTML = "Please select an answer.";
   }
   else if(userAnswer === "1") {
     msg.className = "notice--success";
-    btn.setAttribute("disabled");
+    btn.createAttribute("disabled");
     msg.innerHTML = "Correct!";
   }
   else {
     msg.className = "notice--danger";
-    btn.setAttribute("disabled");
+    btn.createAttribute("disabled");
     msg.innerHTML = "Incorrect.";
   }
   setTimeout(function() {
