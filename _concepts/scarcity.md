@@ -23,7 +23,7 @@ Scarcity is the principle that limited amounts of goods and services are availab
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" value="3"></div> Test 4</div>
 </form>
 
-<button class="btn btn--info" onclick="submitAnswer()">Submit</button>
+<button class="btn btn--info" id="btn" type="button" onclick="submitAnswer()">Submit</button>
 <p id="message"></p>
 
 <script>
@@ -33,6 +33,7 @@ function submitAnswer() {
   var checked = false;
   var userAnswer;
   var msg = document.getElementById("message");
+  var btn = document.getElementById("btn");
   
   for(i = 0; i < len; i++) {
      if(radios[i].checked) {
@@ -42,20 +43,23 @@ function submitAnswer() {
   } 
   if(!checked) {
     msg.className = "notice--info";
+    btn.setAttribute("disabled");
     msg.innerHTML = "Please select an answer.";
   }
   else if(userAnswer === "1") {
     msg.className = "notice--success";
+    btn.setAttribute("disabled");
     msg.innerHTML = "Correct!";
   }
   else {
     msg.className = "notice--danger";
+    btn.setAttribute("disabled");
     msg.innerHTML = "Incorrect.";
   }
   setTimeout(function() {
     msg.innerHTML = "";
     msg.className = "";
+    btn.removeAttribute("disabled");
   }, 3000 );
-  
 }
 </script>
