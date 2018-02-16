@@ -10,7 +10,7 @@ Scarcity is the principle that limited amounts of goods and services are availab
 
 ## Video
 
-{% comment %}<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mRSBjFkbH0I?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>{% endcomment %}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mRSBjFkbH0I?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Question
 
@@ -55,7 +55,7 @@ function submitAnswer() {
   setTimeout(function() {
     msg.innerHTML = "";
     msg.className = "";
-  }, 5000 );
+  }, 3000 );
   
 }
 </script>
