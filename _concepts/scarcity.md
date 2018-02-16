@@ -34,6 +34,7 @@ function submitAnswer() {
   var userAnswer;
   var msg = document.getElementById("message");
   var btn = document.getElementById("btn");
+  var disabled = document.createAttribute("disabled");
   
   for(i = 0; i < len; i++) {
      if(radios[i].checked) {
@@ -43,17 +44,17 @@ function submitAnswer() {
   } 
   if(!checked) {
     msg.className = "notice--info";
-    btn.createAttribute("disabled");
+    btn.setAttributeNode(disabled);
     msg.innerHTML = "Please select an answer.";
   }
   else if(userAnswer === "1") {
     msg.className = "notice--success";
-    btn.createAttribute("disabled");
+    btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
   }
   else {
     msg.className = "notice--danger";
-    btn.createAttribute("disabled");
+    btn.setAttributeNode(disabled);
     msg.innerHTML = "Incorrect.";
   }
   setTimeout(function() {
