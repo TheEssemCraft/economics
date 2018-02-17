@@ -17,6 +17,9 @@ Scarcity is the principle that limited amounts of goods and services are availab
 ### Question Test
 
 <form class="form">
+  {% comment %}
+  The 'radio-container' classes are a workaround for a chrome bug, see https://crbug.com/29427
+  {% endcomment %}
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" id="0" value="0"></div><label for="0">Test 1</label></div>
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" id="1" value="1"></div><label for="1">Test 2</label></div>
   <div><div class="radio-container"><input class="radio" type="radio" name="choice" id="2" value="2"></div><label for="2">Test 3</label></div>
