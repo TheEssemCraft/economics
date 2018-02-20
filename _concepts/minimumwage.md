@@ -1,6 +1,6 @@
 ---
 title: "Minimum Wage"
-permalink: /concepts/minimum_wage.html
+permalink: /concepts/minimumwage.html
 header:
   teaser: http://placehold.it/600x400
 ---
