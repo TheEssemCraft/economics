@@ -2,6 +2,7 @@
 title: "Not Allowed"
 permalink: "/forbidden.html"
 layout: single
+toc: false
 hidden: true
 ---
 
