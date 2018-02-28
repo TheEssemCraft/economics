@@ -8,4 +8,4 @@ hidden: true
 
 Sorry, but the page you are trying to access hasn't been unlocked yet. Finish some more pages and you'll unlock this one!
 
-<a href="/dashboard.html" class="btn btn--info btn--large"><i class="fas fa-home"></i> Back to Dashboard</a>
+<a href="{{ "/dashboard.html" | absolute_url }}" class="btn btn--info btn--large"><i class="fas fa-home"></i> Back to Dashboard</a>
