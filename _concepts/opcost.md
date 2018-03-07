@@ -1,6 +1,7 @@
 ---
 title: "Opportunity Cost"
 permalink: "/concepts/opcost.html"
+excerpt: ""
 header:
   teaser: http://placehold.it/600x400
 ---
