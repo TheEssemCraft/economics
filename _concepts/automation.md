@@ -1,6 +1,7 @@
 ---
 title: "Automation"
 permalink: /concepts/automation.html
+excerpt: ""
 header:
   teaser: http://placehold.it/600x400
 ---
