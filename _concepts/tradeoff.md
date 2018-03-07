@@ -1,6 +1,7 @@
 ---
 title: "Trade-off"
 permalink: "/concepts/tradeoff.html"
+excerpt: ""
 header:
   teaser: http://placehold.it/600x400
 ---
