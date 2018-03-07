@@ -1,6 +1,7 @@
 ---
 title: "Human Capital"
 permalink: "/concepts/humancp.html"
+excerpt: ""
 header:
   teaser: http://placehold.it/600x400
 ---
