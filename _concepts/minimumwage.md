@@ -8,6 +8,10 @@ header:
 
 ## What is the Minimum Wage?
 
+## Video
+
+<iframe frameborder="0" width="560" height="315" src="https://www.youtube-nocookie.com/embed/mWwXmH-n5Bo?iv_load_policy=3&showinfo=0&rel=0&end=606">
+
 ## Question
 
 ### Question Test
