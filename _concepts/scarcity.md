@@ -1,5 +1,6 @@
 ---
 title: "Scarcity"
+date: 2017-08-17
 permalink: /concepts/scarcity.html
 excerpt: ""
 header:
