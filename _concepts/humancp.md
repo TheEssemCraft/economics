@@ -1,5 +1,6 @@
 ---
 title: "Human Capital"
+date: 2017-08-19
 permalink: "/concepts/humancp.html"
 excerpt: ""
 header:
