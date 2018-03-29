@@ -1,5 +1,6 @@
 ---
 title: "Law of Supply and Demand"
+date: 2017-08-24
 permalink: "/concepts/supplydemand.html"
 excerpt: ""
 header:
