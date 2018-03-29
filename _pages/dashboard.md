@@ -4,5 +4,4 @@ permalink: "/dashboard.html"
 layout: collection
 collection: concepts
 entries_layout: grid
-hidden: true
 ---
