@@ -1,5 +1,6 @@
 ---
 title: "Trade-off"
+date: 2017-08-20
 permalink: "/concepts/tradeoff.html"
 excerpt: ""
 header:
