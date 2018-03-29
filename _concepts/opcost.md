@@ -1,5 +1,6 @@
 ---
 title: "Opportunity Cost"
+date: 2017-08-18
 permalink: "/concepts/opcost.html"
 excerpt: ""
 header:
