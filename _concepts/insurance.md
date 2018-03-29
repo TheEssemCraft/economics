@@ -1,5 +1,6 @@
 ---
 title: "Insurance"
+date: 2017-08-22
 permalink: /concepts/insurance.html
 excerpt: ""
 header:
