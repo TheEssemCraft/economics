@@ -1,5 +1,6 @@
 ---
 title: "Minimum Wage"
+date: 2017-08-23
 permalink: /concepts/minimumwage.html
 excerpt: ""
 header:
