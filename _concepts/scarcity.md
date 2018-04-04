@@ -4,7 +4,7 @@ date: 2017-08-17
 permalink: /concepts/scarcity.html
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/scarcity.jpg
 ---
 
 ## What is Scarcity?
