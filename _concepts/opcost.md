@@ -4,7 +4,7 @@ date: 2017-08-18
 permalink: "/concepts/opcost.html"
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/opportunitycost.jpg
 ---
 
 ## What is an Opportunity Cost?
