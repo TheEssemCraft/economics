@@ -4,7 +4,7 @@ date: 2017-08-20
 permalink: "/concepts/tradeoff.html"
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/tradeoff.jpg
 ---
 
 ## What is a Trade-off?
