@@ -4,7 +4,7 @@ date: 2017-08-23
 permalink: /concepts/minimumwage.html
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/minimumwage.jpg
 ---
 
 ## What is the Minimum Wage?
