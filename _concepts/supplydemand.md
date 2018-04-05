@@ -4,7 +4,7 @@ date: 2017-08-24
 permalink: "/concepts/supplydemand.html"
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/supplydemand.jpg
 ---
 
 ## What is supply and demand?
