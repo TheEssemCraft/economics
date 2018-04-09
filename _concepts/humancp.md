@@ -4,7 +4,7 @@ date: 2017-08-19
 permalink: "/concepts/humancp.html"
 excerpt: ""
 header:
-  teaser: http://placehold.it/600x400
+  teaser: /assets/images/humancapital.jpg
 ---
 
 ## What is Human Capital?
