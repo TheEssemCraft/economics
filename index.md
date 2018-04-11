@@ -11,5 +11,3 @@ header:
 excerpt: 'A guide to economics with quizzes and videos to help you.'
 hidden: true
 ---
-
-{% include feature_row id="intro" type="center" %}
