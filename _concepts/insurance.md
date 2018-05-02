@@ -8,3 +8,4 @@ header:
 ---
 
 ## What is Insurance?
+Insurance is protection through a contract from financial losses.
