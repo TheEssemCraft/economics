@@ -8,6 +8,7 @@ header:
 ---
 
 ## What is the Minimum Wage?
+The minimum wage is the lowest amount of money permitted by law that you can earn.
 
 ## Video
 
