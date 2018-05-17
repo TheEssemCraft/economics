@@ -32,7 +32,7 @@ An opportunity cost is the most desirable alternative given up as the result of 
 
 <script>
 if(localStorage.level < 1) {
-  window.location.replace("{{ "/forbidden.html" | absolute_url }}");
+  window.location.replace({{ "/forbidden.html" | absolute_url }});
 }
 
 function submitAnswer() {
