@@ -56,6 +56,8 @@ function submitAnswer() {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
+    localStorage.level = 1;
+    correct = true;
   }
   else {
     msg.className = "notice--danger";
@@ -66,6 +68,9 @@ function submitAnswer() {
     msg.innerHTML = "";
     msg.className = "";
     btn.removeAttribute("disabled");
+    if(correct) {
+      window.location.href = "{{ \"/dashboard.html\" | absolute_url }}";
+    }
   }, 3000 );
 }
 </script>
