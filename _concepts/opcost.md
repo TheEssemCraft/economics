@@ -31,6 +31,10 @@ An opportunity cost is the most desirable alternative given up as the result of 
 <p id="message"></p>
 
 <script>
+if(localStorage.level < 1) {
+  window.location.replace("{{ "/forbidden.html" | absolute_url }}");
+}
+
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
   var len = radios.length;
