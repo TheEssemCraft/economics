@@ -10,6 +10,9 @@ header:
 ## What is a Trade-off?
 A trade-off is when you give up one benefit in order to gain another, greater benefit.
 
+## Video
+<iframe src="https://www.youtube-nocookie.com/embed/lpSz2x0c1rU?end=131&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>
+
 ## Question
 
 ### Question Test
