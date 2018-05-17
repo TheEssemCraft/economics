@@ -31,7 +31,7 @@ An opportunity cost is the most desirable alternative given up as the result of 
 <p id="message"></p>
 
 <script>
-if(localStorage.level < 1) {
+if(!localStorage.level) {
   window.location.replace("/forbidden.html");
 }
 
