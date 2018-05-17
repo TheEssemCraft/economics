@@ -56,7 +56,9 @@ function submitAnswer() {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
-    localStorage.level = 1;
+    if(localStorage.level < 1) {
+      localStorage.level = 1;
+    }
     correct = true;
   }
   else {
