@@ -31,6 +31,10 @@ The law of supply and demand is the theory that prices will rise and fall accord
 <p id="message"></p>
 
 <script>
+if(localStorage.level < 7 || !localStorage.level) {
+  window.location.replace("{{ "/forbidden.html" | absolute_url }}");
+}
+
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
   var len = radios.length;
@@ -55,6 +59,9 @@ function submitAnswer() {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
+    if(localStorage.level < 8) {
+      localStorage.level = 8;
+    }
   }
   else {
     msg.className = "notice--danger";
@@ -65,6 +72,9 @@ function submitAnswer() {
     msg.innerHTML = "";
     msg.className = "";
     btn.removeAttribute("disabled");
+    if(correct) {
+      window.location.href = "{{ "/dashboard.html" | absolute_url }}";
+    }
   }, 3000 );
 }
 </script>
