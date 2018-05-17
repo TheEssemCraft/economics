@@ -31,7 +31,7 @@ A trade-off is when you give up one benefit in order to gain another, greater be
 <p id="message"></p>
 
 <script>
-if(localStorage.level < 3) {
+if(localStorage.level < 3 || !localStorage.level) {
   window.location.replace("{{ "/forbidden.html" | absolute_url }}");
 }
 
