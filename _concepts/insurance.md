@@ -10,6 +10,9 @@ header:
 ## What is Insurance?
 Insurance is protection through a contract from financial losses.
 
+## Video
+<iframe src="https://www.youtube-nocookie.com/embed/-58VD3z7ZiQ?end=131&showinfo=0&rel=0&iv_load_policy=3" width="560" height="315" frameborder="0"></iframe>
+
 ## Question
 
 ### Question Test
@@ -28,6 +31,10 @@ Insurance is protection through a contract from financial losses.
 <p id="message"></p>
 
 <script>
+if(localStorage.level < 5 || !localStorage.level) {
+  window.location.replace("{{ "/forbidden.html" | absolute_url }}");
+}
+
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
   var len = radios.length;
@@ -52,6 +59,10 @@ function submitAnswer() {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
+    if(localStorage.level < 6) {
+      localStorage.level = 6;
+    }
+    correct = true;
   }
   else {
     msg.className = "notice--danger";
@@ -62,6 +73,9 @@ function submitAnswer() {
     msg.innerHTML = "";
     msg.className = "";
     btn.removeAttribute("disabled");
+    if(correct) {
+      window.location.href = "{{ "/dashboard.html" | absolute_url }}";
+    }
   }, 3000 );
 }
 </script>
