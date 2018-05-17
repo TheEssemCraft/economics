@@ -31,7 +31,7 @@ Human capital is the knowledge and skills a worker gains through education and e
 <p id="message"></p>
 
 <script>
-if(localStorage.level < 2) {
+if(localStorage.level < 2 || !localStorage.level) {
   window.location.replace("{{ "/forbidden.html" | absolute_url }}");
 }
 
