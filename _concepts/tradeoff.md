@@ -28,6 +28,10 @@ A trade-off is when you give up one benefit in order to gain another, greater be
 <p id="message"></p>
 
 <script>
+if(localStorage.level < 3) {
+  window.location.replace("{{ "/forbidden.html" | absolute_url }}");
+}
+
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
   var len = radios.length;
@@ -52,6 +56,10 @@ function submitAnswer() {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
+    if(localStorage.level < 4) {
+      localStorage.level = 4;
+    }
+    correct = true;
   }
   else {
     msg.className = "notice--danger";
@@ -62,6 +70,9 @@ function submitAnswer() {
     msg.innerHTML = "";
     msg.className = "";
     btn.removeAttribute("disabled");
+    if(correct) {
+      window.location.href = "{{ "/dashboard.html" | absolute_url }}";
+    }
   }, 3000 );
 }
 </script>
