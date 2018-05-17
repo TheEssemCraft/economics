@@ -51,10 +51,14 @@ function submitAnswer() {
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Please select an answer.";
   }
-  else if(userAnswer === "1") {
+  else if(userAnswer === "3") {
     msg.className = "notice--success";
     btn.setAttributeNode(disabled);
     msg.innerHTML = "Correct!";
+    if(localStorage.level < 2) {
+      localStorage.level = 2;
+    }
+    correct = true;
   }
   else {
     msg.className = "notice--danger";
@@ -65,6 +69,9 @@ function submitAnswer() {
     msg.innerHTML = "";
     msg.className = "";
     btn.removeAttribute("disabled");
+    if(correct) {
+      window.location.href = "{{ "/dashboard.html" | absolute_url }}";
+    }
   }, 3000 );
 }
 </script>
