@@ -69,7 +69,7 @@ function submitAnswer() {
     msg.className = "";
     btn.removeAttribute("disabled");
     if(correct) {
-      window.location.href = "{{ \"/dashboard.html\" | absolute_url }}";
+      window.location.href = {{ "/dashboard.html" | absolute_url }};
     }
   }, 3000 );
 }
