@@ -35,6 +35,8 @@ if(!localStorage.level) {
   window.location.replace("/forbidden.html");
 }
 
+console.log(localStorage.level);
+
 function submitAnswer() {
   var radios = document.getElementsByName("choice");
   var len = radios.length;
